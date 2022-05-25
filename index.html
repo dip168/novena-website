@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- font-awesome cdn -->
+    <script src="https://kit.fontawesome.com/f875c3c231.js" crossorigin="anonymous"></script>
+
+    <!-- bootstrap-cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-heart-pulse-fill heart" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M1.475 9C2.702 10.84 4.779 12.871 8 15c3.221-2.129 5.298-4.16 6.525-6H12a.5.5 0 0 1-.464-.314l-1.457-3.642-1.598 5.593a.5.5 0 0 1-.945.049L5.889 6.568l-1.473 2.21A.5.5 0 0 1 4 9H1.475ZM.879 8C-2.426 1.68 4.41-2 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C11.59-2 18.426 1.68 15.12 8h-2.783l-1.874-4.686a.5.5 0 0 0-.945.049L7.921 8.956 6.464 5.314a.5.5 0 0 0-.88-.091L3.732 8H.88Z" />
+                </svg>Novena</a>
+
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Department
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Doctors
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Blog
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+    </nav>
+
+    <!-- header background image  -->
+    <div class="bg-image">
+        <div class="container">
+            <div class="heading">
+                <h1>-</h1>
+                <h4>TOTAL HEALTH CARE SOLUTION</h4>
+                <h2>Your Most Trusted <br> Health Partner</h2>
+                <h5>A repudiandae ipsum labore ipsa voluptatum quidem quae laudantiam quisquam <br> aperium maiories
+                    sunt
+                    fugit,desurent rem suscipit placeat.</h5>
+                <div class="button">
+                    <button type="button" class="btn btn-danger">Make Appointment <div class="space">></div></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- card-section -->
+    <div class="container">
+        <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
+            <div class="col">
+                <div class="card">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-hospital-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M6 0a1 1 0 0 0-1 1v1a1 1 0 0 0-1 1v4H1a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h6v-2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5V16h6a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1h-3V3a1 1 0 0 0-1-1V1a1 1 0 0 0-1-1H6Zm2.5 5.034v1.1l.953-.55.5.867L9 7l.953.55-.5.866-.953-.55v1.1h-1v-1.1l-.953.55-.5-.866L7 7l-.953-.55.5-.866.953.55v-1.1h1ZM2.25 9h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5A.25.25 0 0 1 2 9.75v-.5A.25.25 0 0 1 2.25 9Zm0 2h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25v-.5a.25.25 0 0 1 .25-.25ZM2 13.25a.25.25 0 0 1 .25-.25h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25v-.5ZM13.25 9h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25v-.5a.25.25 0 0 1 .25-.25ZM13 11.25a.25.25 0 0 1 .25-.25h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25v-.5Zm.25 1.75h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25v-.5a.25.25 0 0 1 .25-.25Z" />
+                    </svg>
+                    <div class="card-body">
+                        <h5 class="card-title">24 hours service</h5>
+                        <h3 class="card-2">Online Appointment</h3>
+                        <p class="card-text">Get all time support for emergency.we have introduced the principle of
+                            family medicine.</p>
+
+                        <div class="appointment-btn">
+                            <button type="button" class="btn btn-dark make-button">
+                                MAKE A APPOINTMENT
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-clock-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z" />
+                    </svg>
+                    <div class="card-body">
+                        <h5 class="card-title">Timing shedule</h5>
+                        <h3 class="card-2">Working hours</h3>
+                        <div class="timing">
+                            <h5>Sun-Wed:</h5>
+                            <h5>8:00-17:00</h5>
+                        </div>
+                        <div class="timing">
+                            <h5>Thu-Fri:</h5>
+                            <h5>9:00-17:00</h5>
+                        </div>
+                        <div class="timing">
+                            <h5>Sat-Sun:</h5>
+                            <h5>10:00-17:00</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-telephone-inbound-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zM15.854.146a.5.5 0 0 1 0 .708L11.707 5H14.5a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 1 0v2.793L15.146.146a.5.5 0 0 1 .708 0z" />
+                    </svg>
+                    <div class="card-body">
+                        <h5 class="card-title">Emergency Cases</h5>
+                        <h3 class="card-2">1-800-700-6200</h3>
+                        <p class="card-text">Get all time support for emergency.we have introduced the principle of
+                            family medicine. Get Connected With us for any urgency.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- image bootstrap-grid section -->
+
+    <div class="container grid">
+        <div class="row_box">
+            <div class="row">
+                <div class="col-lg-4 col-sm-12">
+                    <div class="col-10">
+                        <img class="first-img" src="images/pexels.jpg" alt="">
+                    </div>
+
+                    <div class="col-10">
+                        <img class="first-img" src="images/studio.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="col-lg-8 col-sm-12">
+                    <div class="row">
+                        <div class="col-5">
+                            <img class="third-img" src="images/antoni.jpg" alt="">
+                        </div>
+                        <div class="text col-6 ">
+                            <div class="text-box">
+                                <h2>Personal care <br> & Healthy living</h2>
+                                <p>We provide best leading medicle service Nulla best prefendis velium deliniti
+                                    ipsumofficia dolores repellut laudatiam obacaecati neque.</p>
+                                <div class="service-button">
+                                    <button type="button" class="btn btn-danger">Services<div class="space">></div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- number-column-section -->
+    <div class="container counter">
+        <div class="main_row">
+            <div class="row row_numb">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="row">
+                        <div class="text-box1">
+                            <div class="col-3" style="margin-top: -2rem;">
+                                <i class="fas fa-camera fa-4x logo"></i>
+                                <h1 class="num">58k</h5>
+                                    <h5 class="word">Happy people</h5>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="row">
+                        <div class="text-box2">
+                            <div class="col-3" style="margin-top: -2rem;">
+                                <i class="fas fa-flag fa-4x logo"></i>
+                                <h1 class="num">700+</h1>
+                                <h5 class="word">Surgery Completed</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="row">
+                        <div class="text-box3">
+                            <div class="col-3" style="margin-top: -2rem;">
+                                <i class="fas fa-solid fa-award fa-4x logo"></i>
+                                <h1 class="num">40+</h1>
+                                <h5 class="word">Expert Doctors</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="row">
+                        <div class="text-box4">
+                            <div class="col-3" style="margin-top: -2rem;">
+                                <i class="fas fa-solid fa-globe fa-4x logo"></i>
+                                <h1 class="num">20</h1>
+                                <h5 class="word">Worldwide Branch</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- award-winnig-section -->
+    <div class="container paragraph">
+        <div class="award">
+            <h1>Award winning patient care</h1>
+            <h2>-</h2>
+            <div class="lets">
+                <p>lets know moreel nessecitatibus dolor aspariarus illum possesimus sint voluptates insidunt molestias
+                    nostrum loudantium.maioress porro cumque quaret.</p>
+            </div>
+        </div>
+
+        <!-- box-column-section bootstrap-grid -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-sm-6">
+                    <div class="column_one">
+                        <div class="col-4">
+                            <div class="logo1">
+                                <i class="fas fa-regular fa-flask fa-4x"></i>
+                                <h4>Laboratary Services</h4>
+                            </div>
+                            <p class="para_nulla">saepe nulla praesentium eaque omnis <br> perferendis a doloremque.</p>
+                        </div>
+                    </div>  
+                </div>  
+
+                <div class="col-lg-4 col-sm-6">
+                     <div class="column_one">
+                         <div class="col-4">
+                            <div class="logo1">
+                                <i class=" fas fa-light fa-lungs fa-4x"></i>
+                                <h4>Body Surgery</h4>
+                            </div>
+                            <p class="para_nulla">saepe nulla praesentium eaque omnis <br> perferendis a doloremque.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-6">
+                    <div class="column_one">
+                        <div class="col-4">
+                            <div class="logo1">
+                                <i class="fas fa-solid fa-hand-holding-heart fa-4x"></i>
+                                <h4>Heart Daisease</h4>
+                            </div>
+                            <p class="para_nulla">Saepe nulla praesentium eaque omnis <br> perferendis a doloremque.</p>
+                        </div>
+                    </div>
+                </div>
+                   
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="column_one">
+                            <div class="col-4">
+                                <div class="logo1">
+                                    <i class="fas fa-light fa-brain fa-4x"></i>
+                                    <h4>Neurology sergery</h4>
+                                </div>
+                                <p class="para_nulla">Saepe nulla praesentium eaque omnis <br> perferendis a doloremque</p>
+                            </div>
+                        </div>
+                    </div>
+                   
+
+
+
+                <div class="col-lg-4 col-sm-6">
+                    <div class="column_one">
+                        <div class="col-4">
+                            <div class="logo1">
+                                <i class="fas fa-light fa-tooth fa-4x"></i>
+                                <h4>Dental care</h4>
+                            </div>
+                            <p class="para_nulla">Saepe nulla praesentium eaque omnis <br> perferendis a doloremque</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-6">
+                    <div class="column_one">
+                        <div class="col-4">
+                            <div class="logo1">
+                                <i class="fas fa-light fa-biohazard fa-4x"></i>
+                                <h4>Gynecology</h4>
+                            </div>
+                            <p class="para_nulla">Saepe nulla praesentium eaque omnis <br> perferendis a doloremque</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <!-- form-section-start -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-sm-12">
+                <div class="col-6">
+                    <img class="anna" src="images/anna.jpg" alt="">
+                    <div class="contact_nb">
+                        <i class="fas fa-solid fa-blender-phone"></i>
+                        <h2>+23 345 67980</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-sm-12">
+                <div class="col-6 form_col">
+                    <div class="appoint">
+                        <h2>Book appointment</h2>
+                        <p>mollitia dicta commodi est recusandae iste,natus eum asperiores corrupti <br> qui velit.iste
+                            dolorum atque similique praesentium solutia.</p>
+                    </div>
+
+                    <div class="dropdown_menu">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Choose Department</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Select Doctors</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+
+                    <div class="dropdown_menu">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label"></label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="dd/mm/yyyy">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label"></label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Time">
+                        </div>
+                    </div>
+
+                    <div class="dropdown_menu">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label"></label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="Full Name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label"></label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="Phone Number">
+                        </div>
+                    </div>
+
+                    <div class="message_box">
+                        <label for="exampleFormControlTextarea1" class="form-label"></label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                            placeholder="Your Message"></textarea>
+                    </div>
+                    <div class="service-button">
+                        <button type="button" class="btn btn-danger">Services<div class="space">></div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container branding_para">
+        <div class="brand_ward">
+            <h1>We served over 5000+ <br> patients</h1>
+            <h2>-</h2>
+            <div class="lets">
+                <p>Lets know moreel necessitatibus dolor asperiores illum possimus sint volupatates incidunt <br>
+                    molestias nostrum laudatium.maiores porro cumque quarat.
+                </p>
+            </div>
+        </div>
+
+        <!-- slider-section bootstrap- -->
+        <div class="container">
+            <div class="row slider_cont">
+                <div class="col-lg-6 col-sm-12">
+                    <div class="slider_column">
+                        <div class="col-4">
+                            <div class="logo1">
+                                <img class="anto" src="images/navigator.jpg" alt="">
+                                <div class="labo_john">
+                                    <h4>Amazing Service!</h4>
+                                    <h5>John partho</h5>
+                                </div>
+                            </div>
+                            <p class="para_elit">the provide great service facillity consectettur adipiscing elit. <br>
+                                utaque rem,praesentioum,iure,ipsum magnum deleniti a vel <br>
+                                eos adipisci suscipit fugit placeat.
+                            </p>
+                        </div>
+                        <div class="symbol">
+                            <i class="fas fa-quote-right"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-sm-12">
+                    <div class="slider_column2">
+                        <div class="col-4">
+                            <div class="logo1">
+                                <img class="anto" src="images/antoni.jpg" alt="">
+
+                                <div class="labo_john2">
+                                    <h4>Expert doctors</h4>
+                                    <h5>Mullar sarth</h5>
+                                </div>
+                            </div>
+                            <p class="para_elit2">the provide great service facillity consectettur adipiscing elit. <br>
+                                utaque rem,praesentioum,iure,ipsum magnum deleniti a vel <br>
+                                eos adipisci suscipit fugit placeat.
+                            </p>
+                        </div>
+                        <div class="symbol">
+                            <i class="fas fa-quote-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- branding logo section -->
+    <div class="container branding_para1">
+        <div class="brand_ward">
+            <h1>Partners who support us</h1>
+            <h2>-</h2>
+            <div class="lets">
+                <p>Let know moreel necessitatibus dolor illum possimus sint volupata
+                    insidunt <br> molestias laudattium. maiores porro cumque querat.</p>
+            </div>
+        </div>
+
+        <div class="col-cont">
+            <div class="row">
+                <div class="col-lg-12 col-sm-6">
+                    <div class="row logo_png">
+                        <div class="col-lg-2 col-sm-4">
+                            <img src="images/grepo logo.png" alt="">
+                        </div>
+
+                        <div class="col-lg-2 col-sm-4">
+                            <img src="images/award.png" alt="">
+                        </div>
+
+                        <div class="col-lg-2 col-sm-4">
+                            <img src="images/jetbluepng.png" alt="">
+                        </div>
+
+                        <div class="col-lg-2 col-sm-4">
+                            <img src="images/medical.png" alt="">
+                        </div>
+
+                        <div class="col-lg-2 col-sm-4">
+                            <img src="images/oscar.png" alt="">
+                        </div>
+
+                        <div class="col-lg-2 col-sm-4">
+                            <img src="images/grepo logo.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer-section -->
+    <footer class="back_color">
+        <div class="container footre_cont">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="Novena_brand">
+                        <i class="fas fa-jedi"></i>
+                        <h2>Novena</h2>
+                    </div>
+
+                    <div class="font_awe">
+                        <p>Tempora dolorem voluptatum naasm vero
+                            assumenda voluptate,facilis ad eos obcaecati
+                            tenetur veritatis eveniet distincio possimus.</p>
+                        <i class="fas fa fa-facebook"></i>
+                        <i class="fas fa fa-twitter"></i>
+                        <i class="fas fa fa-linkedin"></i>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3 col-sm-6">
+                    <div class="depart">
+                        <h3>Department</h3>
+                        <h1>-</h1>
+                        <h5>Surgery</h5>
+                        <h5>Womens'Health</h5>
+                        <h5>Radiology</h5>
+                        <h5>Cardioc</h5>
+                        <h5>Medicine</h5>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6">
+                    <div class="depart">
+                        <h3>Support</h3>
+                        <h1>-</h1>
+                        <h5>Terms & Conditions</h5>
+                        <h5>Privacy Policy</h5>
+                        <h5>Company Support</h5>
+                        <h5>FAQuestions</h5>
+                        <h5>Company Licence</h5>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6">
+                    <div class="depart">
+                        <h3>Get In Touch</h3>
+                        <h1>-</h1>
+                        <div class="envelope_h5">
+                            <i class="fas fa fa-envelope"></i>
+                            <h5>Support Available 24/7</h5>
+                        </div>
+
+                        <h6>Support@email.com</h6>
+                        <div class="envelope_h5">
+                            <i class="fas fa-solid fa-chess-knight"></i>
+                            <h5>Mon to Fri : 08:30 - 18:00</h5>
+                        </div>
+                        <h6>+23-456-6588</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6 col-sm-6">
+                    <div class="foot_end">
+                        <h5>Copyright @2021,Designed & Devloped by <b>Themifisher</b></h5>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-sm-6">
+                    <div class="email_btn">
+                        <div class="input-group mb-3">
+                            <div class="email_input">
+                                <input type="text" class="form-control" placeholder="Your Email address"
+                                    aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            </div>
+                            <div class="btn_sub">
+                                <span class="input-group-text" id="basic-addon2">SUBSCRIBE</span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
